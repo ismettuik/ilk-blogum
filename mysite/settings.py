@@ -25,13 +25,12 @@ SECRET_KEY = 'v6cf0-6jpq15xv@i*!g$kfy=e1vj3(tls&_)*#nbn4$*8nw9y@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ismettuik.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    
 ]
 
 MIDDLEWARE = [
